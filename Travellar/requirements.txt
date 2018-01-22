@@ -1,13 +1,18 @@
 awsebcli==3.12.1
 botocore==1.8.33
 cement==2.8.2
+click==6.7
 colorama==0.3.7
 Django==2.0.1
 docker-py==1.7.2
 dockerpty==0.4.1
 docopt==0.6.2
 docutils==0.14
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.10
 jmespath==0.9.3
+MarkupSafe==1.0
 pathspec==0.5.0
 python-dateutil==2.6.1
 pytz==2017.3
@@ -18,3 +23,4 @@ six==1.11.0
 tabulate==0.7.5
 termcolor==1.1.0
 websocket-client==0.46.0
+Werkzeug==0.14.1
