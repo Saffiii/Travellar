@@ -32,7 +32,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'travellar-env.xyvhze3jym.eu-west-2.elasticbeanstalk.com'
+    'travellar-env.xyvhze3jym.eu-west-2.elasticbeanstalk.com',
+    'travellar.hfeifbvqet.eu-west-2.elasticbeanstalk.com'
 ]
 
 

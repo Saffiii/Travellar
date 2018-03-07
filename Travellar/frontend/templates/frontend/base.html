@@ -1,14 +1,43 @@
 {% load static %}
 <html>
-    <head>
-        <title>{% block title %}Travellar{% endblock %}</title>
-        {% block stylesheet %}{% endblock %}
-    </head>
-    <body>
-        <main>
-            {% csrf_token %}
-            {% block content %}{% endblock %}
-        </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </body>
+<head>
+    <title>{% block title %}Travellar{% endblock %}</title>
+    {% block stylesheet %}{% endblock %}
+</head>
+<body>
+<script src="{%static 'frontend/js/facebook.js' %}" ></script>
+<div align="center">
+    <h2>Facebook OAuth Javascript Demo</h2>
+
+    <div id="status">
+        Click on Below Image to start the demo: <br/>
+        <img src="http://hayageek.com/examples/oauth/facebook/oauth-javascript/LoginWithFacebook.png" style="cursor:pointer;" onclick="Login()"/>
+    </div>
+
+    <div id="status 2">
+        Check ins data is :
+    </div>
+
+    <br/><br/><br/><br/><br/>
+
+    <div id="message">
+        Logs:<br/>
+    </div>
+
+</div>
+
+
+
+
+
+<main id="main">
+    {% csrf_token %}
+    {% block content %}{% endblock %}
+    <fb:login-button scope="public_profile,email,user_birthday" onlogin="checkLoginState();" id="fb-login" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></fb:login-button>
+    <input type="button" id="fb-logout" onclick="fbLogout()" name="Logout" value="Logout">
+
+    <!--<div id="status"></div>-->
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
 </html>
