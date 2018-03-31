@@ -1,4 +1,4 @@
-from .models import Destination, Hotel, VehicleRental, User, History, ReviewDestination, ReviewHotel, ReviewVehicleRental, StarredDestination, StarredHotel, StarredVehicleRental
+from .models import Destination, Hotel, VehicleRental, User, History, ReviewDestination, ReviewHotel, ReviewVehicleRental, StarredDestination, StarredHotel, StarredVehicleRental, Rating
 from django.forms import ModelForm
 from django import forms
 
@@ -24,7 +24,7 @@ class VehicleRentalForm(ModelForm):
 class UserForm(ModelForm):
     class Meta:
         model = User
-        fields = ['firstName', 'lastName']
+        fields = '__all__'
 
 
 class HistoryForm(ModelForm):
@@ -66,4 +66,10 @@ class StarredHotelForm(ModelForm):
 class StarredVehicleRentalForm(ModelForm):
     class Meta:
         model = StarredVehicleRental
+        fields = '__all__'
+
+
+class RatingForm(ModelForm):
+    class Meta:
+        model = Rating
         fields = '__all__'

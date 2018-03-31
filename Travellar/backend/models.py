@@ -11,11 +11,12 @@ class Destination(models.Model):
     destinationCountry = models.CharField(max_length=255)
     destinationState = models.CharField(max_length=255)
     destinationAddress = models.CharField(max_length=255)
-    destinationCurrency = models.CharField(max_length=25)
-    destinationMinPrice = models.DecimalField(decimal_places=2, max_digits=10)
-    destinationMaxPrice = models.DecimalField(decimal_places=2, max_digits=10)
-    destinationMinTemp = models.DecimalField(decimal_places=2, max_digits=10)
-    destinationMaxTemp = models.DecimalField(decimal_places=2, max_digits=10)
+    destinationPlaceID = models.CharField(max_length=255)
+    # destinationCurrency = models.CharField(max_length=25)
+    # destinationMinPrice = models.DecimalField(decimal_places=2, max_digits=10)
+    # destinationMaxPrice = models.DecimalField(decimal_places=2, max_digits=10)
+    # destinationMinTemp = models.DecimalField(decimal_places=2, max_digits=10)
+    # destinationMaxTemp = models.DecimalField(decimal_places=2, max_digits=10)
 
     def as_json(self):
         return dict(
@@ -26,12 +27,19 @@ class Destination(models.Model):
             destinationCountry=self.destinationCountry,
             destinationState=self.destinationState,
             destinationAddress=self.destinationAddress,
-            destinationCurrency=self.destinationCurrency,
-            destinationMinPrice=self.destinationMinPrice,
-            destinationMaxPrice=self.destinationMaxPrice,
-            destinationMinTemp=self.destinationMinTemp,
-            destinationMaxTemp=self.destinationMaxTemp,
+            destinationPlaceID=self.destinationPlaceID,
+            # destinationCurrency=self.destinationCurrency,
+            # destinationMinPrice=self.destinationMinPrice,
+            # destinationMaxPrice=self.destinationMaxPrice,
+            # destinationMinTemp=self.destinationMinTemp,
+            # destinationMaxTemp=self.destinationMaxTemp,
         )
+
+    def __str__(self):
+        return str(self.destinationID) + " - " + self.destinationName
+
+    # def get_id(self):
+    #     return self.destinationID
 
 
 class Hotel(models.Model):
@@ -87,7 +95,6 @@ class VehicleRental(models.Model):
 class User(models.Model):
     userID = models.AutoField(primary_key=True)
     email = models.EmailField(verbose_name='email address', max_length=100, unique=True)
-    # password =
     firstName = models.CharField(max_length=25)
     lastName = models.CharField(max_length=25)
 
@@ -98,6 +105,9 @@ class User(models.Model):
             last_name=self.lastName,
             email=self.email,
         )
+
+    def __str__(self):
+        return str(self.userID) + " - " + self.lastName + ", " + self.firstName
 
 
 class History(models.Model):
@@ -216,11 +226,17 @@ class StarredVehicleRental(models.Model):
         )
 
 
-class Ratings(models.Model):
-    #userID=models.IntegerField()
+class Rating(models.Model):
+    userID = models.ForeignKey(
+        'User',
+        on_delete=models.CASCADE,
+    )
     destinationID = models.ForeignKey(
         'Destination',
         on_delete=models.CASCADE,
     )
     rating = models.FloatField()
-    timestamp = models.TimeField
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return str(self.destinationID) + " - " + str(self.rating)

@@ -25,10 +25,7 @@
     </div>
 
 </div>
-
-
-
-
+<button type="button" id="home" value="checkvalue">Google</button>
 
 <main id="main">
     {% csrf_token %}
@@ -39,5 +36,22 @@
     <!--<div id="status"></div>-->
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $('#home').click(function(){
+
+        $.ajax({
+            type:'get',
+            url:'/api/googleplaces',
+            success: function(data) {
+                console.log(data)
+            },
+            error: function(request, status, error) {
+                console.log(request)
+                console.log(status)
+                console.log(error)
+            }
+        });
+    });
+</script>
 </body>
 </html>
