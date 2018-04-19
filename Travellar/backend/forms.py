@@ -1,4 +1,4 @@
-from .models import Destination, Hotel, VehicleRental, User, History, ReviewDestination, ReviewHotel, ReviewVehicleRental, StarredDestination, StarredHotel, StarredVehicleRental, Rating
+from .models import Destination, Hotel, VehicleRental, User, History, ReviewDestination, ReviewHotel, ReviewVehicleRental, StarredDestination, StarredHotel, StarredVehicleRental, Rating, Airport
 from django.forms import ModelForm
 from django import forms
 
@@ -73,3 +73,9 @@ class RatingForm(ModelForm):
     class Meta:
         model = Rating
         fields = '__all__'
+
+
+class AirportForm(ModelForm):
+    class Meta:
+        model = Airport
+        fields = ['iata', 'city']

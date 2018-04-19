@@ -1,6 +1,104 @@
 {% extends 'frontend/base.html' %}
 {% load static %}
+{% block stylesheet %}
+<link href="../../static/frontend/css/style.css" rel="stylesheet">
+<link href="../../static/frontend/css/camera.css" rel="stylesheet">
+<link href="../../static/frontend/css/owl.carousel.css" rel="stylesheet">
+{% endblock %}
+{% block scripts %}
+<script src="{%static 'frontend/js/jquery-migrate-1.2.1.js' %}"></script>
+<script src="{%static 'frontend/js/script.js' %}"></script>
+<script src="{%static 'frontend/js/superfish.js' %}"></script>
+<script src="{%static 'frontend/js/jquery.ui.totop.js' %}"></script>
+<script src="{%static 'frontend/js/jquery.equalheights.js' %}"></script>
+<script src="{%static 'frontend/js/jquery.mobilemenu.js' %}"></script>
+<script src="{%static 'frontend/js/jquery.easing.1.3.js' %}"></script>
+<script src="{%static 'frontend/js/owl.carousel.js' %}"></script>
+<script src="{%static 'frontend/js/camera.js' %}"></script>
+<script src="{%static 'frontend/js/jquery.mobile.customized.min.js' %}"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('#camera_wrap').camera({
+            loader: false,
+            pagination: false ,
+            minHeight: '444',
+            thumbnails: false,
+            height: '48.375%',
+            caption: true,
+            navigation: true,
+            fx: 'mosaic'
+        });
+        /*carousel*/
+        var owl=$("#owl");
+        owl.owlCarousel({
+            items : 2, //10 items above 1000px browser width
+            itemsDesktop : [995,2], //5 items between 1000px and 901px
+            itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+            itemsTablet: [700, 2], //2 items between 600 and 0
+            itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+            navigation : true,
+            pagination : false
+        });
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+{% endblock %}
+
+
+{% block header %}{% endblock %}
 
 {% block content %}
-<div>This is a test page.</div>
+<div class="slider_wrapper">
+    <div id="camera_wrap" class="">
+        <div data-src="{% static 'frontend/img/slide.jpg'%}">
+            <div class="caption fadeIn">
+                <h2>LONDON</h2>
+                <div class="price">
+                    FROM
+                    <span>£700</span>
+                </div>
+            </div>
+        </div>
+        <div data-src="{% static 'frontend/img/slide1.jpg'%}">
+            <div class="caption fadeIn">
+                <h2>Maldives</h2>
+                <div class="price">
+                    FROM
+                    <span>£1400</span>
+                </div>
+            </div>
+        </div>
+        <div data-src="{% static 'frontend/img/slide2.jpg'%}">
+            <div class="caption fadeIn">
+                <h2>Venice</h2>
+                <div class="price">
+                    FROM
+                    <span>£1000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content"><div class="ic"></div>
+{#    <div class="container_12">#}
+{#        <div class="banners">#}
+{#            <div class="recommendedbyus">#}
+{#                <div class="title">RECOMMENDED BY US ...</div>#}
+{##}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+    <div class="container_12">
+        <div class="banners">
+            <div class="popular">
+                <div class="title">POPULAR CHOICES</div>
+
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
+
+

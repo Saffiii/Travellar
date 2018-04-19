@@ -28,11 +28,6 @@ class Destination(models.Model):
             destinationState=self.destinationState,
             destinationAddress=self.destinationAddress,
             destinationPlaceID=self.destinationPlaceID,
-            # destinationCurrency=self.destinationCurrency,
-            # destinationMinPrice=self.destinationMinPrice,
-            # destinationMaxPrice=self.destinationMaxPrice,
-            # destinationMinTemp=self.destinationMinTemp,
-            # destinationMaxTemp=self.destinationMaxTemp,
         )
 
     def __str__(self):
@@ -45,51 +40,76 @@ class Destination(models.Model):
 class Hotel(models.Model):
     hotelID = models.AutoField(primary_key=True)
     hotelName = models.CharField(max_length=255)
-    hotelLocation = models.CharField(max_length=255)
-    hotelContact = models.IntegerField()
-    hotelCheckin = models.DateField(auto_now_add=True)
-    hotelCheckout = models.DateField(auto_now_add=True)
-    hotelDescription = models.CharField(max_length=255)
-    hotelImage = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=255)
-    hotelPrice = models.DecimalField(decimal_places=2, max_digits=10)
+    hotelStreet = models.CharField(max_length=255)
+    hotelZip = models.CharField(max_length=255)
+    hotelCity = models.CharField(max_length=255)
+    hotelCountry = models.CharField(max_length=255)
+    hotelSabreID = models.CharField(max_length=255)
+    # hotelContact = models.IntegerField()
+    # hotelCheckin = models.DateField(auto_now_add=True)
+    # hotelCheckout = models.DateField(auto_now_add=True)
+    # hotelDescription = models.CharField(max_length=255)
+    # hotelImage = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=255)
+    # hotelPrice = models.DecimalField(decimal_places=2, max_digits=10)
 
     def as_json(self):
         return dict(
             hotelID=self.hotelID,
             hotelName=self.hotelName,
-            hotelLocation=self.hotelLocation,
-            hotelContact=self.hotelContact,
-            hotelCheckin=self.hotelCheckin,
-            hotelCheckout=self.hotelCheckout,
-            hotelDescription=self.hotelDescription,
-            hotelImage=self.hotelImage,
-            hotelPrice=self.hotelPrice,
+            hotelStreet=self.hotelStreet,
+            hotelZip=self.hotelZip,
+            hotelCity=self.hotelCity,
+            hotelCountry=self.hotelCountry,
+            hotelSabreID=self.hotelSabreID,
+            # hotelContact=self.hotelContact,
+            # hotelCheckin=self.hotelCheckin,
+            # hotelCheckout=self.hotelCheckout,
+            # hotelDescription=self.hotelDescription,
+            # hotelImage=self.hotelImage,
+            # hotelPrice=self.hotelPrice,
         )
+
+    def __str__(self):
+        return str(self.hotelID) + " - " + self.hotelName
 
 
 class VehicleRental(models.Model):
     vehicleID = models.AutoField(primary_key=True)
     vehicleCompany = models.CharField(max_length=255)
-    vehicleLocation = models.CharField(max_length=255)
-    vehicleType = models.CharField(max_length=255)
-    vehicleRate = models.DecimalField(decimal_places=2, max_digits=10)
-    vehicleMileageAllowance = models.IntegerField()
-    vehicleBaseCost = models.DecimalField(decimal_places=2, max_digits=10)
-    vehicleTotalCost = models.DecimalField(decimal_places=2, max_digits=10)
-    vehicleCurrency = models.CharField(max_length=25)
+    vehicleStreet = models.CharField(max_length=255)
+    vehicleZip = models.CharField(max_length=255)
+    vehicleCity = models.CharField(max_length=255)
+    vehicleCountry = models.CharField(max_length=255)
+    vehicleSabreID = models.CharField(max_length=255)
+
+    # vehicleLocation = models.CharField(max_length=255)
+    # vehicleType = models.CharField(max_length=255)
+    # vehicleRate = models.DecimalField(decimal_places=2, max_digits=10)
+    # vehicleMileageAllowance = models.IntegerField()
+    # vehicleBaseCost = models.DecimalField(decimal_places=2, max_digits=10)
+    # vehicleTotalCost = models.DecimalField(decimal_places=2, max_digits=10)
+    # vehicleCurrency = models.CharField(max_length=25)
 
     def as_json(self):
         return dict(
             vehicleID=self.vehicleID,
             vehicleCompany=self.vehicleCompany,
-            vehicleLocation=self.vehicleLocation,
-            vehicleType=self.vehicleType,
-            vehicleRate=self.vehicleRate,
-            vehicleMileageAllowance=self.vehicleMileageAllowance,
-            vehicleBaseCost=self.vehicleBaseCost,
-            vehicleTotalCost=self.vehicleTotalCost,
-            vehicleCurrency=self.vehicleCurrency,
+            vehicleStreet=self.vehicleStreet,
+            vehicleZip=self.vehicleZip,
+            vehicleCity=self.vehicleCity,
+            vehicleCountry=self.vehicleCountry,
+            vehicleSabreID=self.vehicleSabreID,
+            # vehicleLocation=self.vehicleLocation,
+            # vehicleType=self.vehicleType,
+            # vehicleRate=self.vehicleRate,
+            # vehicleMileageAllowance=self.vehicleMileageAllowance,
+            # vehicleBaseCost=self.vehicleBaseCost,
+            # vehicleTotalCost=self.vehicleTotalCost,
+            # vehicleCurrency=self.vehicleCurrency,
         )
+
+    def __str__(self):
+        return str(self.vehicleID) + " - " + self.vehicleCompany
 
 
 class User(models.Model):
@@ -240,3 +260,26 @@ class Rating(models.Model):
 
     def __str__(self):
         return str(self.destinationID) + " - " + str(self.rating)
+
+
+class Airport(models.Model):
+    icao = models.CharField(max_length=255)
+    iata = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    city = models.CharField(max_length=255)
+    state = models.CharField(max_length=255)
+    country = models.CharField(max_length=255)
+
+    def as_json(self):
+        return dict(
+            icao=self.icao,
+            iata=self.iata,
+            name=self.name,
+            city=self.city,
+            state=self.state,
+            country=self.country,
+        )
+
+    def __str__(self):
+        return str(self.iata) + " - " + str(self.city)
+

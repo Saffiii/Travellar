@@ -5,4 +5,5 @@ urlpatterns = [
     url(r'^googleplaces', views.googleplaces, name='googleplaces'),
     url(r'^recommend', views.recommend, name='recommend'),
     url(r'^als', views.recommendals, name='recommendals'),
+    url(r'^sabre', views.sabre, name='sabre'),
 ]

@@ -1,57 +1,74 @@
 {% load static %}
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}Travellar{% endblock %}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{%static 'frontend/js/sabre.js' %}"></script>
+    <link href="../../static/frontend/css/style.css" rel="stylesheet">
+    <link href="../../static/frontend/css/camera.css" rel="stylesheet">
+    <link href="../../static/frontend/css/owl.carousel.css" rel="stylesheet">
     {% block stylesheet %}{% endblock %}
 </head>
 <body>
-<script src="{%static 'frontend/js/facebook.js' %}" ></script>
-<div align="center">
-    <h2>Facebook OAuth Javascript Demo</h2>
-
-    <div id="status">
-        Click on Below Image to start the demo: <br/>
-        <img src="http://hayageek.com/examples/oauth/facebook/oauth-javascript/LoginWithFacebook.png" style="cursor:pointer;" onclick="Login()"/>
+<script src="{%static 'frontend/js/facebook.js' %}"></script>
+<header>
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="menu_block">
+                <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+                    <ul class="sf-menu">
+                        <li><a href="{% url 'index' %}">TravellaR</a></li>
+                        <li><a href="{% url 'flights' %}">Flights</a></li>
+                        <li><a href="{% url 'hotel' %}">Hotels</a></li>
+                        <li><a href="{% url 'rental' %}">Car Rental</a></li>
+                        <li><a href="{% url 'recommendations' %}">Recommendations</a></li>
+                        <li id="facebook-log"><a id="fb-login" onclick="Login()">Facebook Login</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </div>
     </div>
-
-    <div id="status 2">
-        Check ins data is :
-    </div>
-
-    <br/><br/><br/><br/><br/>
-
-    <div id="message">
-        Logs:<br/>
-    </div>
-
-</div>
-<button type="button" id="home" value="checkvalue">Google</button>
+    {% block header %}{% endblock %}
+</header>
 
 <main id="main">
     {% csrf_token %}
     {% block content %}{% endblock %}
-    <fb:login-button scope="public_profile,email,user_birthday" onlogin="checkLoginState();" id="fb-login" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></fb:login-button>
-    <input type="button" id="fb-logout" onclick="fbLogout()" name="Logout" value="Logout">
 
-    <!--<div id="status"></div>-->
+
+
+    <!--<fb:login-button scope="public_profile,email,user_birthday" onlogin="Login();" id="fb-login"-->
+    <!--class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="continue_with"-->
+    <!--data-show-faces="false" data-auto-logout-link="false"-->
+    <!--data-use-continue-as="false"></fb:login-button>-->
+
+    <!--<div id="message">-->
+    <!--Logs:<br/>-->
+    <!--</div>-->
+
+    <!--<div id="status">-->
+    <!--Check ins data is :-->
+    <!--</div>-->
 </main>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-    $('#home').click(function(){
-
-        $.ajax({
-            type:'get',
-            url:'/api/googleplaces',
-            success: function(data) {
-                console.log(data)
-            },
-            error: function(request, status, error) {
-                console.log(request)
-                console.log(status)
-                console.log(error)
-            }
-        });
-    });
-</script>
+<footer>
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google-plus"></a>
+            </div>
+            <div class="copy">
+                TravellaR (c) 2018 | <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    {% block footer %}{% endblock %}
+</footer>
+{% block scripts %}{% endblock %}
 </body>
 </html>
