@@ -1,162 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d3373d0-47bf-4a1c-b51a-0c30bc3fca16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Travellar/backend/fixtures/hotels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/backend/fixtures/rental.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/backend/sabre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/flights.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/hotel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/recommendations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/rental.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Travellar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Travellar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/installed-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/awsebcli-3.12.3-py3.6.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore-1.9.4.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/credentials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/acm/2015-12-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/acm/2015-12-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/alexaforbusiness/2017-11-09/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/alexaforbusiness/2017-11-09/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/apigateway/2015-07-09/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/apigateway/2015-07-09/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/appstream/2016-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/appstream/2016-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/batch/2016-08-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/batch/2016-08-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ce/2017-10-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ce/2017-10-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/clouddirectory/2016-05-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/clouddirectory/2016-05-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudformation/2010-05-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudformation/2010-05-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudhsmv2/2017-04-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudhsmv2/2017-04-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudwatch/2010-08-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/cloudwatch/2010-08-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/codebuild/2016-10-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/codebuild/2016-10-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/config/2014-11-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/config/2014-11-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/devicefarm/2015-06-23/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/devicefarm/2015-06-23/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/discovery/2015-11-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/discovery/2015-11-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/dms/2016-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/dms/2016-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/dynamodb/2012-08-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/dynamodb/2012-08-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ecs/2014-11-13/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ecs/2014-11-13/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/elasticbeanstalk/2010-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/elasticbeanstalk/2010-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/es/2015-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/es/2015-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/events/2015-10-07/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/events/2015-10-07/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/glue/2017-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/glue/2017-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/greengrass/2017-06-07/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/greengrass/2017-06-07/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/iam/2010-05-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/iam/2010-05-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/iot/2015-05-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/iot/2015-05-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/lambda/2015-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/lambda/2015-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/lightsail/2016-11-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/lightsail/2016-11-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/medialive/2017-10-14/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/medialive/2017-10-14/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mediapackage/2017-10-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mediapackage/2017-10-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mgh/2017-05-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mgh/2017-05-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mturk/2017-01-17/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/mturk/2017-01-17/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/organizations/2016-11-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/organizations/2016-11-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/pinpoint/2016-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/pinpoint/2016-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/rds/2014-10-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/rds/2014-10-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/redshift/2012-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/redshift/2012-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/s3/2006-03-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/s3/2006-03-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/sagemaker/2017-07-24/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/sagemaker/2017-07-24/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/serverlessrepo/2017-09-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/serverlessrepo/2017-09-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/servicediscovery/2017-03-14/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/servicediscovery/2017-03-14/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/shield/2016-06-02/paginators-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/shield/2016-06-02/paginators-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ssm/2014-11-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/ssm/2014-11-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/sts/2011-06-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/sts/2011-06-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/transcribe/2017-10-26/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/transcribe/2017-10-26/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/translate/2017-07-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/translate/2017-07-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/data/workmail/2017-10-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/data/workmail/2017-10-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/docs/shape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/endpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/parsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/botocore/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/botocore/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/initialize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/platform/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/controllers/platform/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/core/ebcore.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/core/ebcore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/lib/aws.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/lib/aws.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/sourcecontrol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/sourcecontrol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/tier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/objects/tier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/operations/buildspecops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/operations/buildspecops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/ebcli/operations/commonops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/ebcli/operations/commonops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-28.8.0.dist-info/zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/archive_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/archive_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/bdist_egg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/build_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/build_ext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/build_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/build_py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/egg_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/upload_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/depends.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/depends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/dist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/extern/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/monkey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/msvc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/msvc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/namespaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/namespaces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/py26compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/py27compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/py27compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/py31compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/py31compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/sandbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/ssl_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/ssl_support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/setuptools/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install-3.6.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/eb" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/eb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/eb-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/eb-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/ebp-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/ebp-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/localrecommenderals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/localrecommenderals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/backend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/static/frontend/js/facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/frontend/static/frontend/js/facebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/static/frontend/js/facebook_old.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/frontend/templates/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/frontend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/frontend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travellar/static/frontend/js/facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/static/frontend/js/facebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/pip-selfcheck.json" afterDir="false" />
-    </list>
+    <list default="true" id="0d3373d0-47bf-4a1c-b51a-0c30bc3fca16" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sabre.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sabre.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travellar/backend/sabre.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -234,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sabre.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sabre.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
+            <state relative-caret-position="374">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -266,18 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1615">
               <caret line="95" column="26" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googleplaces.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Travellar/backend/googleplaces.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="86" column="40" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -403,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -481,6 +313,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -613,7 +446,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -640,26 +473,24 @@
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="5" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Data View" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info anchor="right" id="SciView" order="7" />
@@ -669,7 +500,9 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
@@ -821,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travellar/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Travellar/backend/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -891,13 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Travellar/frontend/templates/frontend/flights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -975,20 +794,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js">
+    <entry file="file://$PROJECT_DIR$/Travellar/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
+        <state relative-caret-position="289">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travellar/backend/sabre.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travellar/frontend/templates/frontend/flights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
