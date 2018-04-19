@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d3373d0-47bf-4a1c-b51a-0c30bc3fca16" name="Default" comment="" />
+    <list default="true" id="0d3373d0-47bf-4a1c-b51a-0c30bc3fca16" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Travellar/static/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/static/frontend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travellar/static/frontend/js/facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/static/frontend/js/facebook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travellar/static/frontend/js/sabre.js" beforeDir="false" afterPath="$PROJECT_DIR$/Travellar/static/frontend/js/sabre.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +86,8 @@
       <file leaf-file-name="sabre.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -248,67 +252,6 @@
               <item name="Travellar" type="462c0819:PsiDirectoryNode" />
               <item name="Travellar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travellar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-              <item name="Travellar" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -441,12 +384,12 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -519,13 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Travellar/frontend/templates/frontend/recommendations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Travellar/backend/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -818,10 +754,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Travellar/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Travellar/frontend/static/frontend/js/sabre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>

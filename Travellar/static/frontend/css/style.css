@@ -346,13 +346,31 @@ header h1 a img {
 }
 
 
-.banner .label .title {
+.banner .label {
     font-size: 30px;
     margin-bottom: 14px;
     text-transform: uppercase;
 }
 
-.banner .label .price span {
+.title {
+    font-size: 25px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.price {
+    display: block;
+    font-size: 22px;
+    padding-top: 3px;
+}
+
+.price span{
+    display: block;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.banner .label {
     display: block;
     font-size: 24px;
     padding-top: 3px;
